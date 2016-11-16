@@ -1,0 +1,15 @@
+﻿  Main.cpp
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(216): warning C4018: '<': signed/unsigned mismatch
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(279): warning C4101: 'operation': unreferenced local variable
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(279): warning C4101: 'symbol': unreferenced local variable
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(137): warning C4101: 'ex': unreferenced local variable
+  c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(196): note: see reference to function template instantiation 'float &CalculatePrefix<float,TYPE,Operation>(Stack<float> *,dataType,DynamicArray<Operation> *)' being compiled
+          with
+          [
+              TYPE=char,
+              dataType=char
+          ]
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(39): warning C4715: 'findNumber': not all control paths return a value
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\operation.h(73): warning C4715: 'Operation::Calculate': not all control paths return a value
+c:\users\nasko\desktop\sda_homework_1\sda_homework_1\main.cpp(152): warning C4172: returning address of local variable or temporary: calculationResult
+  SDA_Homework_1.vcxproj -> C:\Users\Nasko\Desktop\SDA_Homework_1\Debug\SDA_Homework_1.exe
