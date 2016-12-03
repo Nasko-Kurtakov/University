@@ -1,0 +1,29 @@
+﻿  maip.cpp
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorlogic.h(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorlogic.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\maip.cpp(33): note: see reference to function template instantiation 'void fmi::sda::QueueCalculation<Command*>(ElevatorCommandsList<Command *> *,int &,float &)' being compiled
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorlogic.h(100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorlogic.h(105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(222): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(221): note: while compiling class template member function 'Box<dataType> *ElevatorCommandsList<dataType>::FindAtIndex(int) const'
+          with
+          [
+              dataType=Command *
+          ]
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(209): note: see reference to function template instantiation 'Box<dataType> *ElevatorCommandsList<dataType>::FindAtIndex(int) const' being compiled
+          with
+          [
+              dataType=Command *
+          ]
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(57): note: while compiling class template member function 'void ElevatorCommandsList<Command *>::Init(void)'
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(112): note: see reference to function template instantiation 'void ElevatorCommandsList<Command *>::Init(void)' being compiled
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(76): note: while compiling class template member function 'void ElevatorCommandsList<Command *>::DeleteElements(void)'
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(137): note: see reference to function template instantiation 'void ElevatorCommandsList<Command *>::DeleteElements(void)' being compiled
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(134): note: while compiling class template member function 'ElevatorCommandsList<Command *>::~ElevatorCommandsList(void)'
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\maip.cpp(37): note: see reference to function template instantiation 'ElevatorCommandsList<Command *>::~ElevatorCommandsList(void)' being compiled
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\maip.cpp(31): note: see reference to class template instantiation 'ElevatorCommandsList<Command *>' being compiled
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(302): warning C4553: '==': operator has no effect; did you intend '='?
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(295): note: while compiling class template member function 'void ElevatorCommandsList<Command *>::RemoveBack(void)'
+  c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(248): note: see reference to function template instantiation 'void ElevatorCommandsList<Command *>::RemoveBack(void)' being compiled
+c:\users\nasko\desktop\sda_homework_2\sda_homework_2\elevatorcommandslist.h(204): warning C4715: 'ElevatorCommandsList<Command *>::PeekFront': not all control paths return a value
+  SDA_Homework_2.vcxproj -> C:\Users\Nasko\Desktop\SDA_Homework_2\Debug\SDA_Homework_2.exe
