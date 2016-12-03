@@ -249,7 +249,7 @@ void prefixToPostfixExpression(DynamicArray<char> *prefix, DynamicArray<Operatio
 int main(int argc, char** argv)
 {
 	DynamicArray<char>* prefix = new DynamicArray<char>();
-	char *prefixFileName = "prefix.txt", *operationsFileName = "opr.txt";
+	char *prefixFileName = argv[1], *operationsFileName = argv[2];
 
 	std::ifstream fileReader(prefixFileName);
 	if (fileReader.is_open())
